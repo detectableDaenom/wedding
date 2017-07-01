@@ -41,33 +41,44 @@ body {
     50% 	{color: #FFF;}
     100% 	{color: #f22a62;}
 }
-.logo:hover {
-
-}
-
 
 .spotlight {
-	 font-size: 12em;
-	 line-height: .85em;
-	 color: #000;
-	 margin: 0;
-	 text-align: left;
-	 font-weight: 500;
-	 text-transform: uppercase;
+	font-size: 12em;
+	line-height: .85em;
+	color: #000;
+	margin: 0;
+	text-align: left;
+	font-weight: 500;
+	text-transform: uppercase;
 }
-.fbwrap {
- width: 600px;
- margin: 0 auto;
- padding: 2em;
+
+.apoorva {
+	background: url(images/bg2.jpg) no-repeat bottom right;
 }
 .apoorva h2 {
- color: #112461;
- left: -330px;
+	color: #112461;
+	left: -210px;
+	font-size: 8em;
 }
-.anubhav h2.right {
- color: #5246fa;
- right: 0;
+
+#anubhav {
+	background: url(images/bg3.jpg) no-repeat top right;
 }
+#anubhav .inner {
+	background: url(images/bg3a.jpg) no-repeat bottom left;
+}
+.anubhav h2 {
+	color: #5246fa;
+	left: 210px;
+	font-size: 8em;
+}
+
+.fbwrap {
+	width: 600px;
+	margin: 0 auto;
+	padding: 2em;
+}
+
 .savethedate .info {
  position: relative;
  font-family: 'Montserrat', sans-serif;
@@ -288,15 +299,8 @@ h2.right {
 #facebook {
  background: url(images/g10.jpg) no-repeat top right;
 }
-#apoorva {
- background: url(images/bg2.jpg) no-repeat bottom right;
-}
-#anubhav {
- background: url(images/bg3.jpg) no-repeat top right;
-}
-#anubhav .inner {
- background: url(images/bg3a.jpg) no-repeat bottom left;
-}
+
+
 #savethedate {
  background: url(images/bg4.jpg) no-repeat bottom right;
  z-index: -999;
@@ -411,7 +415,7 @@ font-family: 'Montserrat', sans-serif;
  img {
 	 max-width: 100%;
  }
- .anubhav h2.right {
+ .anubhav h2 {
 	 right: 0;
  }
  .apoorva h2 {
