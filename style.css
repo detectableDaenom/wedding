@@ -36,15 +36,7 @@
          }
          .savethedate .info {
              position: relative;
-		font-family: 'Montserrat', sans-serif;
-         }
-         ::-moz-selection {
-             color: #ffd800;
-             background: #333;
-         }
-         ::selection {
-             color: #ffd800;
-             background: #333;
+			 font-family: 'Montserrat', sans-serif;
          }
          .joinus h2 {
              color: #0fc9ae;
@@ -322,9 +314,9 @@ font-family: 'Montserrat', sans-serif;
                  width: 100%!important;
              }
              .animation {
-                 -webkit-animation: wave 7.11111s 0.1s 0 linear;
-                 -moz-animation: wave 7.11111s 0.1s 0 linear;
-                 animation: wave 10s 0.1s 0 linear;
+                 -webkit-animation: wave 7.11111s 0.1s infinite linear alternate;
+                 -moz-animation: wave 7.11111s 0.1s infinite alternate;
+                 animation: wave 10s 0.1s infinite alternate;
              }
              h2 {
                  font-size: 4em!important;
