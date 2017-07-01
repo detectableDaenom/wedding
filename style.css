@@ -336,7 +336,7 @@ h2.right {
  -o-background-size: cover;
  background-size: cover;
 }
-/* Medium Devices, Desktops 
+/* Medium Devices, Desktops */
 
 @media only screen and (max-width: 992px) {
  #apoorva,
