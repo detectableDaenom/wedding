@@ -52,20 +52,6 @@ body {
 	text-transform: uppercase;
 }
 
-/* Portrait Iphone
-@media only screen 
-  and (min-device-width: 320px) 
-  and (max-device-width: 568px)
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: portrait) {
-	
-	.spotlight {
-	font-size: 8em;
-	}
-	  
-}*/
-
-
 
 .apoorva {
 	background: url(images/bg2.jpg) no-repeat bottom right;
@@ -84,7 +70,7 @@ body {
 }
 .anubhav h2 {
 	color: #5246fa;
-	left: 210px;
+	left: 110px;
 	font-size: 8em;
 }
 
