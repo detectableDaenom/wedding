@@ -4,9 +4,8 @@ body {
 	padding: 0;
 	overflow-x: hidden!important; /*Cut the overflow string*/
 	font-family: 'Audiowide', cursive;
-	background-color: orange;
+	background-color: yellow;
 }
-
 .preLoader {
 	width: 100%;
 	height: 100%;
@@ -43,12 +42,6 @@ body {
     50% 	{color: #FFF;}
     100% 	{color: #f22a62;}
 }
-
-
-
-
-
-
 
 .spotlight {
 	font-size: 12em;

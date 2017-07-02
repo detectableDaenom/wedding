@@ -9,7 +9,6 @@
     <meta name="Resource-type" content="Document" />
     <link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css" />
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
-    <link rel="stylesheet" type="text/css" href="style.css" />
 
     <meta property="og:url" content="https://detectabledaenom.github.io/wedding/" />
     <meta property="og:type" content="website" />
@@ -23,13 +22,15 @@
     <link rel="shortcut icon" type="image/png" href="images/favicon.png"/>
     <script src="js/jquery.min.js"></script>
 	<script>
+		document.documentElement.className += 
+		(("ontouchstart" in document.documentElement) ? ' touch' : ' no-touch');
+	</script>
+	<link id="touch" rel="stylesheet" type="text/css" href="narrow.css" />
+	<link id="no-touch" rel="stylesheet" type="text/css" href="style.css" />
+	<script>
 	    jQuery(window).load(function(){
 		jQuery(".preLoader").fadeOut(1000);
 	    });
-	</script>
-	<script>
-		document.documentElement.className += 
-		(("ontouchstart" in document.documentElement) ? ' touch' : ' no-touch');
 	</script>
 </head>
 
