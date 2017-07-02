@@ -20,13 +20,14 @@
 
     <link href="https://fonts.googleapis.com/css?family=Roboto+Slab|Montserrat|Audiowide|Amaranth" rel="stylesheet">
     <link rel="shortcut icon" type="image/png" href="images/favicon.png"/>
+	
+	<link id="base_style" rel="stylesheet" type="text/css" href="narrow.css" />
     <script src="js/jquery.min.js"></script>
 	<script>
-		document.documentElement.className += 
-		(("ontouchstart" in document.documentElement) ? ' touch' : ' no-touch');
+		if (!("ontouchstart" in document.documentElement)) {
+			$("#base_style").attr("href", "style.css");
+		}
 	</script>
-	<link id="touch" rel="stylesheet" type="text/css" href="narrow.css" />
-	<link id="no-touch" rel="stylesheet" type="text/css" href="style.css" />
 	<script>
 	    jQuery(window).load(function(){
 		jQuery(".preLoader").fadeOut(1000);
