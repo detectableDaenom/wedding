@@ -1,17 +1,9 @@
-@media only screen {
-    body {
-        background-color: lightblue;
-    }
+.no-touch body {
+	background-color: blue;
 }
-@media only screen and (min-width: 450px) and (max-width: 799px) {
-    body {
-        background-color: red;
-    }
-}
-@media only screen and (min-width: 800px) {
-    body {
-        background-color: green;
-    }
+
+.touch body {
+	background-color: red;
 }
 
 html,
