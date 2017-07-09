@@ -1,9 +1,8 @@
-html,
-body {
-	margin: 0;
-	padding: 0;
-	overflow-x: hidden!important; /*Cut the overflow string*/
-	font-family: 'Audiowide', cursive;
+#landing-page,
+#apoorva-page,
+#anubhav-page 
+#countdown{
+    background-size: cover;
 }
 
 .preLoader {
@@ -14,6 +13,122 @@ body {
 	position: fixed;
 }
 
+/* Defining each section background and styles 
+* --------------------------------------- */
+#landing-page{
+    background-image: url(images/bg1.jpg);
+}
+#apoorva-page{
+    background-image: url(images/bg2.jpg);
+}
+#anubhav-page{
+    background-image: url(images/bg3a.jpg);
+}
+#countdown{
+    background-image: url(images/dance.png), url(images/bg9.jpg);
+	background-repeat: no-repeat, no-repeat;
+	background-position: left top, right bottom;
+}
+#photos {
+    background-image: url(images/bg4.png), url(images/g10.jpg);
+	background-repeat: no-repeat, no-repeat;
+	background-position: left-bottom, right top;
+}
+#savethedate {
+	background: url(images/bg4.png) no-repeat bottom left;
+	z-index: -999;
+}
+
+.and {
+	font-size: 40px;
+	font-weight: 600;
+	font-family: 'Audiowide', cursive;
+}
+
+.footer {
+	position: absolute; 
+	bottom: 0;
+}
+
+#overlay {
+text-align: center;
+display: inline-block;
+border-radius: 25px;
+background-color: #fff;
+background-color: rgba(245,245,245,0.6);
+padding: 0px; 
+}
+
+#timer {
+	font-family: 'Audiowide', cursive;
+	color: #fc32ca;
+	font-size: 5em;
+}
+
+.box {
+    background-color:white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	z-index: -997;
+	opacity: 0.9;
+}
+
+
+.container-demo {
+    height: 100%;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.top-padding{
+	height:1%;
+	text-align: right;
+}
+.bottom-padding {
+	height:19%;
+	text-align: center;
+}
+.intermediate-padding {
+	height:20%;
+	text-align: right;
+}
+.mid-row {
+	height:60%;
+	overflow: hidden;
+}
+.info {
+	padding-left: 50%;
+}
+
+
+.saveTheDate h4.right {
+	color: #ff5a00;
+	text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+	font-family: 'Audiowide', cursive;
+	font-size: 6em;
+	text-align: right;
+	line-height: 85%;
+}
+.saveTheDate .info {
+	position: relative;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1.5em;
+}
+
+.joinus {
+	font-family: 'Audiowide', cursive;
+	color: #1bf713;
+	font-size: 5em;
+	text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;	
+}
+.rsvp {
+	display: block;
+	font-size: 2em;
+	color: #000;
+	text-align: center;
+	margin-top: -20px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+
 .logo {
 	position: absolute;
 	top: 50px;
@@ -22,6 +137,7 @@ body {
 	font-weight: 900;
 	z-index: 999;
 	width: 100%;
+	font-family: 'Audiowide', cursive;
 	font-size: 1.3em;
 	color: #f22a62;
 	animation-name: 'logo-animation';
@@ -43,81 +159,19 @@ body {
     100% 	{color: #f22a62;}
 }
 
+.absolute {
+ position: absolute!important;
+}
 
-
-
-
-
-
-.spotlight {
-	font-size: 12em;
-	line-height: .85em;
-	color: #000;
-	margin: 0;
-	text-align: left;
-	font-weight: 500;
-	text-transform: uppercase;
+#photos .inner {
+background: url(images/photos.png) no-repeat center;
+width: 100%;
+height: 100%;
+margin: 0 0;
+background-size: 600px auto;
 }
 
 
-.apoorva {
-	background: url(images/bg2.jpg) no-repeat bottom right;
-}
-.apoorva h2 {
-	color: #112461;
-	left: -15%;
-	font-size: 7em;
-}
-
-#anubhav {
-	background: url(images/bg3.jpg) no-repeat top right;
-}
-#anubhav .inner {
-	background: url(images/bg3a.jpg) no-repeat bottom left;
-}
-.anubhav h2 {
-	color: #5246fa;
-	left: 15%;
-	font-size: 7em;
-}
-
-.fbwrap {
-	width: 600px;
-	margin: 0 auto;
-	padding: 2em;
-}
-
-.savethedate .info {
- position: relative;
- font-family: 'Montserrat', sans-serif;
-}
-.joinus h2 {
- color: #0fc9ae;
- text-align: left;
- float: left;
- margin-left: 300px;
- z-index: 999;
-}
-a {
- color: #1800ca;
-}
-a:hover {
- color: #371ef6;
- text-decoration: none;
-}
-.joinus h2 span {
- display: block;
- font-size: 20px;
- color: #000;
- text-align: center;
- margin-top: -20px;
-font-family: 'Montserrat', sans-serif;
-}
-.savethedate h2.right {
- color: #fb205d;
- right: 140px;
- top: -46px;
-}
 .animation {
  -webkit-animation: wave 7.11111s 0.1s infinite linear;
  -moz-animation: wave 7.11111s 0.1s infinite linear;
@@ -171,284 +225,71 @@ font-family: 'Montserrat', sans-serif;
 	 transform: rotateZ(360deg) translate3d(0, 1%, 0) rotateZ(-360deg);
  }
 }
-.savethedate h3 {
- text-align: right;
- position: absolute;
- top: 2px;
- width: 120px;
- left: -180px;
- margin: 0;
- font-family: 2em;
-}
-.savethedate .details {
- margin-top: 50px;
- font-size: 1.4em;
- line-height: 1.5em;
+
+
+
+.saveTheDate .info {
+	 position: relative;
+	 font-family: 'Montserrat', sans-serif;
 }
 .details strong {
- display: block;
- margin-bottom: 5px;
-}
-.savethedate .info {
- margin-bottom: 40px;
-font-family: 'Montserrat', sans-serif;
+	display: block;
+	margin-bottom: 5px;
 }
 .section {
- margin: 0 auto;
- position: relative;
-}
-.joinus h2 span {
- font-size: 2rem;
-font-family: 'Montserrat', sans-serif;
-}
-.shadow {
- -webkit-box-shadow: 1px 1px 50px 0px rgba(0, 0, 0, 0.1);
- box-shadow: 0px 0px 120px 0px rgba(1, 1, 1, 0.12);
-}
-.box {
- width: 700px;
- height: 480px;
- z-index: 10;
-}
-.box2 {
- height: 700px;
- right: 0;
- top: 0;
- z-index: -9;
-}
-.white-fill {
- background: #fff;
+	margin: 0 auto;
+	position: relative;
 }
 .watercolor {
- z-index: -999;
- top: -70px;
- right: -70px;
+	opacity: .3;
+	z-index: -999;
+	top: -70px;
+	right: 0px;
 }
 .absolute {
- position: absolute!important;
+	position: absolute!important;
 }
 .details h3 {
- text-transform: uppercase;
- font-weight: bold;
-}
-.scroll {
- position: absolute;
- bottom: 0;
- width: 50px;
- height: 50px;
- left: 50%;
- margin-left: -25px;
- bottom: 40px;
- opacity: .5;
-}
-h2 {
- font-size: 9em;
- text-transform: uppercase;
- line-height: .8em;
- font-weight: 900;
- left: -40px;
- top: 40px;
-}
-.scale {
- width: 80%;
-}
-.scale2 {
- width: 90%;
-}
-.margin-top {
- height: 100%;
- width: auto;
-}
-h2.right {
- right: 40px;
- text-align: right;
- left: inherit;
-}
-.countdown-wrapper {
- margin: 150px 0 0;
-}
-.countdown-wrapper p {
- font-size: 30px;
- margin-left: 10px;
-}
-#anub {
- margin-left: -100px;
-}
-.dance {
- height: 650px;
- float: right;
- margin-right: 70px;
-}
-.countdown h2 {
- color: #fc32ca;
- text-align: left;
-}
-.countdown h2 em {
- display: block;
- font-size: .4em;
- font-style: normal;
- margin: -20px 0 0 10px;
-}
-.and {
- position: absolute;
- top: -40px;
- width: 100%;
- text-align: center;
- font-size: 80px;
- font-weight: 900;
-}
-#spotlight,
-#photos {
- background: url(images/bg1.jpg) no-repeat center top fixed;
-}
-#countdown {
- background: url(images/bg9.jpg) no-repeat bottom right;
-}
-#facebook {
- background: url(images/g10.jpg) no-repeat top right;
+	text-transform: uppercase;
+	font-weight: bold;
 }
 
+@media only screen and (max-width: 767px) {
+	#savethedate {
+		-webkit-background-size: 100px 100px;
+		-moz-background-size: 100px 100px;
+		-o-background-size: 100px 100px;
+		background-size: 100px 100px;
+	}
+	
+	.box {
+		visibility: hidden;
+	}
+	.animation {
+		-webkit-animation: wave 7.11111s 0.1s infinite linear alternate;
+		-moz-animation: wave 7.11111s 0.1s infinite alternate;
+		animation: wave 10s 0.1s infinite alternate;
+	}
+	.watercolor {
+		opacity: .3;
+		position: absolute!important;
+	}
+	.saveTheDate .info {
+		margin-top: 10%;
+		padding-left: 10%;
+		font-family: 'Montserrat', sans-serif;
+		font-size: 1em;
+	}
+	.saveTheDate h4.right {
+		font-size: 2em;
+	}
+	.joinus {
+		font-size: 2em;
+	}
+	.rsvp {
+		font-size: 1em;
+		margin-top: -2px;
+	}
 
-#savethedate {
- background: url(images/bg4.jpg) no-repeat bottom right;
- z-index: -999;
-}
-#joinus {
- background: url(images/bg5.jpg) no-repeat top right;
-}
-#photos .inner {
- background: url(images/photos.jpg) no-repeat center;
- width: 100%;
- height: 100%;
- margin: 0 auto;
- background-size: 800px auto;
-}
-.section {
- -webkit-background-size: cover;
- -moz-background-size: cover;
- -o-background-size: cover;
- background-size: cover;
-}
-/* Medium Devices, Desktops */
+ }
 
-@media only screen and (max-width: 992px) {
- #apoorva,
- #anubhav,
- #anubhav .inner,
- #savethedate,
- #joinus {
-	 -webkit-background-size: 100px 100px;
-	 -moz-background-size: 100px 100px;
-	 -o-background-size: 100px 100px;
-	 background-size: 100px 100px;
- }
- #anub {
-	 position: relative!important;
-	 margin: 0!important;
-	 width: 100%!important;
- }
- .animation {
-	 -webkit-animation: wave 7.11111s 0.1s infinite linear alternate;
-	 -moz-animation: wave 7.11111s 0.1s infinite alternate;
-	 animation: wave 10s 0.1s infinite alternate;
- }
- h2 {
-	 font-size: 4em!important;
- }
- .box {
-	 width: 90%;
-	 height: 90%;
-	 z-index: 10;
-	 display: none!important;
- }
- .watercolor {
-	 opacity: .3;
-	 position: absolute!important;
- }
- .box2 {
-	 height: 90%;
-	 right: 0;
-	 top: 0;
- }
- .savethedate .info {
-	 margin-bottom: 20px;
-font-family: 'Montserrat', sans-serif;
- }
- #joinus img {
-	 position: relative!important;
-	 width: 100%;
-	 margin: 0!important;
-	 left: 0!important;
- }
- .joinus h2 span {
-	 margin-top: 20px;
-	 line-height: 1em;
-	 font-family: 'Montserrat', sans-serif;
- }
- #daysRemaining {
-	 font-size: 2em;
- }
- .countdown h2 em {
-	 margin-top: 1em;
- }
- .fbwrap {
-	 background: #fff;
-	 padding: .5em;
-	 width: 100%;
- }
- .dance {
-	 opacity: .4;
- }
- .joinus h2 {
-	 margin-left: 0;
-	 position: relative!important;
-	 text-align: center;
-	 margin: 30px 0 0 1px;
- }
- #photos .inner {
-	 -webkit-background-size: cover;
-	 -moz-background-size: cover;
-	 -o-background-size: cover;
-	 background-size: cover;
- }
- .savethedate .details {
-	 font-size: 1em;
-	 margin-top: -60%;
- }
- .savethedate h3 {
-	 position: relative;
-	 margin: 0 0 15px;
-	 left: 0;
- }
- img {
-	 max-width: 100%;
- }
- .anubhav h2 {
-	 right: 0;
- }
- .apoorva h2 {
-	 left: 0;
-	 top: 0;
-	 position: relative!important;
- }
- #apoor {
-	 margin-left: 0;
-	 width: 100%;
-	 margin: 0;
-	 padding: 0;
-	 position: relative!important;
- }
- h2 {
-	 font-size: 6em;
- }
- .savethedate h2.right {
-	 right: 0;
-	 top: -10px;
- }
- .spotlight {
-	 font-size: 4em;
- }
- .absolute {
-	 position: relative !Important
- }
-}

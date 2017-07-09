@@ -1,247 +1,233 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml">
-
+<html lang="en"  xmlns="http://www.w3.org/1999/xhtml">
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title> Anubhav Weds Apoorva </title>
-    <meta name="author" content="Anubhav Srivastava" />
+	<meta charset="utf-8"> 
+	<title> Anubhav Weds Apoorva - 21 Nov'17 </title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<meta name="author" content="Anubhav Srivastava" />
     <meta name="description" content="Wedding website of Anubhav & Apoorva" />
     <meta name="Resource-type" content="Document" />
-    <link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css" />
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
-
-    <meta property="og:url" content="https://detectabledaenom.github.io/wedding/" />
+	<meta property="og:url" content="https://detectabledaenom.github.io/wedding" />
     <meta property="og:type" content="website" />
     <meta property="og:title" content="Wedding of Anubhav & Apoorva" />
     <meta property="og:description" content="Join Us! When we start our journey." />
     <meta property="og:image" content="https://detectabledaenom.github.io/wedding/images/anuapoo.jpg" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab|Montserrat|Audiowide|Amaranth" rel="stylesheet">
-    <link rel="shortcut icon" type="image/png" href="images/favicon.png"/>
 	
-	<link id="base_style" rel="stylesheet" type="text/css" href="narrow.css" />
-    <script src="js/jquery.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="style.css" />
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.4/jquery.fullpage.css" />
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.css">
+	
+	
+    <!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> 
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.4/vendors/jquery.easings.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.4/jquery.fullpage.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script src="parallax.js"></script>
+	
+	<link href="https://fonts.googleapis.com/css?family=Montserrat|Audiowide|Amaranth" rel="stylesheet">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+	<link rel="shortcut icon" type="image/png" href="images/favicon.png"/>
+	
+	<script type="text/javascript">
+	$(document).ready(function() {
+		$('#fullpage').fullpage();
+	});	
+    </script>
 	<script>
-		if (!("ontouchstart" in document.documentElement)) {
-			$("#base_style").attr("href", "style.css");
-		}
-	</script>
-	<script>
-	    jQuery(window).load(function(){
+	    jQuery(window).on('load',function(){
 		jQuery(".preLoader").fadeOut(1000);
 	    });
 	</script>
 </head>
 
 <body>
+<div id="fullpage">
 	<div class="preLoader"></div>
-    <div class="logo">
-        <div class="container">Anubhav &amp; Apoorva</div>
-    </div>
-    <div id="outer-wrapper">
-        <div class="section" id="spotlight">
-            <div class="container">
-                <h1 data-depth="0.10" class="spotlight col-md-10 layer col-md-push-1">We <br>Are <br>getting<br> married</h1>
-            </div>
-            <img src="images/scroll.png" class="scroll" alt="Scroll">
-        </div>
-        <div class="section apoorva" id="apoorva">
-            <div class="inner">
-                <div class="container">
-                    <div class="col-md-10 col-md-push-2">
-                        <h2>Apoorva</h2>
-                        <div class="box"></div>
-                        <div data-depth="0.10" class="layer absolute shadow box"></div>
-                        <img data-depth="-0.11" id="apoor" data-depth="2" class="layer scale" src="images/apoor.png" alt="">
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="section anubhav" id="anubhav">
-            <span class="and">&</span>
-            <div class="inner">
-                <div class="container">
-                    <div class="col-md-10  col-md-push-2">
-                        <h2>Anubhav</h2>
-						<div class="box"></div>
-                        <div data-depth="0.10" class="layer absolute shadow box"></div>
-                        <img id="anub" data-depth="-0.11" class="layer  scale" src="images/anubhav.png" alt="anub" />
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="section savethedate" id="savethedate">
-            <div class="inner">
-                <div class="container">
-                    <div class="col-md-9 col-md-push-2">
-                        <h2 class=" absolute right"><br>Save<br>the<br>date</h2>
-                        <div data-depth="-0.10" class="layer absolute white-fill shadow box box2"></div>
-                        <div class="box2 col-md-6 col-md-push-1">
-                            <div data-depth="0.10" class="layer details">
-				<div class="info"> <br><br> <br><br> <br><br> <br><br></div>
-                                <div class="info">
-                                    <h3>Venue</h3>
-                                    <strong>21st November 2017</strong> 08:00 PM onwards
-                                    <br>Ambience The Banquet Hall
-                                    <br>Near Regional Passport Office,
-                                    <br>Basharatpur, Gorakhpur
-                                </div>
-                           </div>
-                        </div>
-                        <div class=" absolute watercolor">
-                            <img class="animation" src="images/watercolor.jpg" alt="">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="section joinus" id="joinus">
-            <div class="inner">
-                <div class="container">
-                    <div class="col-md-10 col-md-push-2">
-                        <div class=" box"></div>
-                        <div data-depth="-0.01" class="absolute shadow layer box"></div>
-                        <img data-depth="-0.10" class="layer scale2" src="images/anuapoo.jpg" alt="">
-                        <h2 data-depth="0.10" class="layer absolute">Join us 
-				<span>Please RSVP on
-				<a href="https://www.facebook.com/messages/t/srivastava.anubhav/" target="_blank"> Facebook </a> or
-				<a href="https://api.whatsapp.com/send?phone=+918377956297&amp;text=Hi"
-					 target="_blank"> Whatsapp </a>
-				</span>
-			</h2>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="section" id="photos">
-            <div class="inner layer" data-depth="0.11">
-                <div class="container">
-                </div>
-            </div>
-        </div>
-        <div class="section countdown" id="countdown">
-            <div class="inner">
-                <div class="container">
-                    <div class="col-md-6" ><img data-depth="0.11" class="layer dance" src="images/apoor2.jpg" alt=""></div>
-                    <div class="col-md-6" >
-                        <div class="countdown-wrapper layer" data-depth="-0.11">
-                            <script>
-                                var end = new Date('11/20/2017 08:0 PM');
-                                var _second = 1000;
-                                var _minute = _second * 60;
-                                var _hour = _minute * 60;
-                                var _day = _hour * 24;
-                                var timer;
+	<div class="section" id="landing-page"> 
+	    <div class="logo">
+			<div class="container">Anubhav &amp; Apoorva</div>
+		</div>
+		<div id="container" class="container">
+			<div class="row">    
+				<div class="col-xs-12"> 
+					<div id="scene1" class="scene1">
+						<div class="layer" data-depth="0.20"><img class="img-responsive" src="images/landing-page.png"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<footer class="footer">
+			<div class="container">    
+				<div class="col-xs-2 col-xs-push-4"> 
+				<img class="img" src="images/scroll.png" >
+				</div>
+			</div>
+		</footer>
+	</div>
+	<div class="section" id="apoorva-page"> 
+		<div id="container" class="container">
+			<div class="row">    
+				<div class="col-xs-12"> 
+					<div id="scene2" class="scene2">
+						<div class="layer" data-depth="-0.05"><img class="img-responsive box" src="images/box-apoorva.jpg" ></div>
+						<div class="layer" data-depth="0.10"><img class="img-responsive" src="images/photo-apoorva.png"></div>
+						<div class="layer" data-depth="-0.20"><img class="img-responsive" src="images/name-apoorva.png"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<footer class="footer">
+			<div class="container">    
+				<div class="col-xs-2 col-xs-push-4"> 
+					<span class="and">&amp;</span>
+				</div>
+			</div>
+		</footer>
+	</div>
+	<div class="section" id="anubhav-page">
+		<div id="container" class="container">
+			<div class="row">    
+				<div class="col-xs-12"> 
+					<div id="scene3" class="scene3">
+						<div class="layer" data-depth="-0.05"><img class="img-responsive box" src="images/box-apoorva.jpg" ></div>
+						<div class="layer" data-depth="0.10"><img class="img-responsive" src="images/photo-anubhav.png"></div>
+						<div class="layer" data-depth="-0.20"><img class="img-responsive" src="images/name-anubhav.png"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+<div class="section saveTheDate" id="saveTheDate">
+		<div class="container container-demo">
+			<div class="row top-padding">
+				<div class="col-xs-12">
+					<h4 class="absolute right"><br>SAVE<br>THE<br>DATE</h4>
+				</div>
+			</div>
+			<div class="row intermediate-padding"><div class="col-xs-12"></div></div>
+			<div class="row mid-row">
+				<div class="col-xs-2"></div>
+				<div class="col-xs-8 mid-col" id="midCol">
+					<div data-depth="0.10" class="layer details info">
+						<h3>Venue</h3>
+						<strong>21st November 2017</strong> 08:00 PM onwards
+						<br>Ambience The Banquet Hall
+						<br>Near Regional Passport Office,
+						<br>Basharatpur, Gorakhpur
+					</div>
+				</div>
+				<div class="col-xs-2"></div>
+			</div>
+			<div class="row bottom-padding">
+				<div class="col-xs-12">
+					<h2 class="joinus" id="joinus"><div data-depth="-0.10" class="layer">Join us</div></h2>
+					<span class="rsvp">Please RSVP on
+						<a href="https://www.facebook.com/messages/t/srivastava.anubhav/" target="_blank"> Facebook </a> or
+						<a href="https://api.whatsapp.com/send?phone=+918377956297&amp;text=Hi"
+							 target="_blank"> Whatsapp </a>
+					</span>					
+				</div>
+			</div>
+			<div class="absolute watercolor"><img class="animation" src="images/watercolor.png" alt=""></div>
+		</div>
+	</div>
+	<div class="section" id="photos">
+		<div class="inner">
+			<div class="container">
+			</div>
+		</div>
+	</div>
+	<div class="section" id="countdown">		
+		<div id="scene6" class="scene6">
+			<div id="overlay" class="layer" data-depth="0.20">
+				<div id="timer"><span id="daysRemaining"></span>days to go</div>
+				<h4>Plan and book your tickets soon.</br>
+					Railway Tickets on Gorakhpur Route fills early in scheduled 120 days advance-ticketing-window.
+				</h4>
+			</div>
+		</div>
+		<div style="text-align: center;">
+			<a href="#" title="Trains to Gorakhpur" data-toggle="popover" data-trigger="focus" data-trigger="click"  data-html="true"
+				data-content="<ul>
+								  <li><a href='https://goo.gl/nj7li1' target='_blank'>New Delhi to Gorakhpur</a></li>
+								  <li><a href='https://goo.gl/EuSxPW' target='_blank'>Lucknow to Gorakhpur</a></li>
+							</ul>"
+				><i class="material-icons" style="font-size:40px;color:red;text-shadow:2px 2px 4px #111111;">train</i>
+			</a>
+			<a href="#" title="Flights nearest to Gorakhpur" data-toggle="popover" data-trigger="focus" data-trigger="click" data-html="true"
+				data-content="<ul>
+								  <li><a href='https://goo.gl/GDD44a' target='_blank'>Bangalore to Lucknow </a></li>
+								  <li><a href='https://goo.gl/SWkPmk' target='_blank'>Bangalore to Delhi</a></li>
+							</ul>"
+				><i class="material-icons" style="font-size:40px;color:red;text-shadow:2px 2px 4px #111111;">flight</i>
+			</a>
+			<a href="#" title="" data-toggle="popover" data-trigger="focus" data-trigger="click" data-html="true"
+				data-content="<a href='https://goo.gl/maps/CSV3Q5MaGDH2' target='_blank'>Wedding Venue : Ambience - The Banquet Hall </a>">
+				<i class="material-icons" style="font-size:40px;color:red;text-shadow:2px 2px 4px #111111;">location_on</i>
+			</a>
+		</div>
+	</div>
 
-                                function showRemaining() {
-                                    var now = new Date();
-                                    var distance = end - now;
-                                    if (distance < 0) {
+	
+	
+	
+</div>
+	
+	<script>
 
-                                        clearInterval(timer);
-                                        document.getElementById('daysRemaining').innerHTML = 'Over!';
+	// Pretty simple huh?
+	var scene1 = document.getElementById('scene1');
+	var parallax = new Parallax(scene1);
+	var scene2 = document.getElementById('scene2');
+	var parallax = new Parallax(scene2);
+	var scene3 = document.getElementById('scene3');
+	var parallax = new Parallax(scene3);
+	var scene6 = document.getElementById('scene6');
+	var parallax = new Parallax(scene6);
+	var midCol = document.getElementById('midCol');
+	var parallax = new Parallax(midCol);
+	var joinus = document.getElementById('joinus');
+	var parallax = new Parallax(joinus);
 
-                                        return;
-                                    }
-                                    var days = Math.floor(distance / _day);
-                                    var hours = Math.floor((distance % _day) / _hour);
-                                    var minutes = Math.floor((distance % _hour) / _minute);
-                                    var seconds = Math.floor((distance % _minute) / _second);
 
-                                    document.getElementById('daysRemaining').innerHTML = days + ' ';
-                                }
+	</script>
+	
+	<script>
+		var end = new Date('11/20/2017 08:0 PM');
+		var _second = 1000;
+		var _minute = _second * 60;
+		var _hour = _minute * 60;
+		var _day = _hour * 24;
+		var timer;
+		function showRemaining() {
+			var now = new Date();
+			var distance = end - now;
+			if (distance < 0) {
 
-                                timer = setInterval(showRemaining, 1000);
-                            </script>
-                            <h2><span id="daysRemaining"> </span> <em>days to go</em></h2>
-                            <font face="Amaranth"> 
-							<h4>Plan and book your tickets soon.</br>Railway Tickets on Gorakhpur Route fills very early in scheduled 120 days advance-ticketing-window.</h4>
-							</font>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="section facebook" id="facebook">
-            <div class="inner">
-                <div class="container">
-                    <div class="col-md-12">
-                        <div class="fbwrap shadow">
-                            <div id="fb-root"><h5> Useful links </h5></div>
-							<font face="Amaranth">				
-							<ul>
-							  <li>Reaching Gorakhpur</li>
-								<ul>
-								  <li><a href="https://goo.gl/nj7li1" target="_blank"> 
-										Trains : New Delhi to Gorakhpur </a> </li>
-								  <li><a href="https://goo.gl/EuSxPW" target="_blank"> 
-										Trains : Lucknow to Gorakhpur </a> </li>
-								  <li><a href="https://goo.gl/GDD44a" target="_blank"> 
-										Flights : Bangalore to Lucknow </a> </li>
-								  <li><a href="https://goo.gl/SWkPmk" target="_blank"> 
-										Flights : Bangalore to New Delhi </a> </li>
-								  <li>Local Conveyance : Ola is in town or just share with us your plan.</li>
-								</ul>
-							  <li><a href="https://goo.gl/maps/CSV3Q5MaGDH2" target="_blank"> Wedding Venue : Ambience - The Banquet Hall </a></li>
-							  <li>Local places to visit</li>
-								<ul>
-								  <li><a href="http://igplanetarium.org/grkhPlanetarium.aspx" target="_blank"> 
-										Veer-Bhadur Singh Planetarium </a> : <a href="https://goo.gl/maps/Be3BH2PLnRF2" target="_blank"> 
-										Map </a> </li>
-								  <li><a href="http://www.gorakhnathmandir.in" target="_blank"> 
-										Gorakhnath Mandir</a> : <a href="https://goo.gl/maps/mBAnZXXhLL32" target="_blank"> 
-										Map </a> </li>
-								   <li><a href="https://goo.gl/sQuuvj" target="_blank"> 
-										Kushinagar</a> : <a href="https://goo.gl/maps/eFkdhmznn3E2" target="_blank"> 
-										Map </a> </li>
-								</ul>
-							  <li><a href="https://goo.gl/Yul7ql" target="_blank"> Plan a trip to Nepal </a></li>
-							</ul>
-							</font>
-                        </div>
-                    </div>
-                </div>
-            </div>
-         </div>
-    </div>
-    <script type="text/javascript" src="js/jquery-ui.min.js"></script>
-    <script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
-    <script type="text/javascript" src="js/jquery.slimscroll.min.js"></script>
-    <script type="text/javascript" src="js/jquery.fullPage.js"></script>
-    <script type="text/javascript" src="js/parallax.js"></script>
-    <script type="text/javascript">
-        $(document).ready(function() {
-            $('#outer-wrapper').fullpage({
-                scrollBar: true
-            });
-            var anubhav = document.getElementById('anubhav');
-            var apoorva = document.getElementById('apoorva');
-            var savethedate = document.getElementById('savethedate');
-            var spotlight = document.getElementById('spotlight');
-            var joinus = document.getElementById('joinus');
-            var parallax = new Parallax(apoorva);
-            var parallax = new Parallax(anubhav);
-            var parallax = new Parallax(savethedate);
-            var parallax = new Parallax(spotlight);
-            var parallax = new Parallax(joinus);
-            var parallax = new Parallax(photos);
-            var parallax = new Parallax(countdown);
-        });
-    </script>
-	<script type="text/javascript">
-	$(document).ready(function () {
-	    //Disable cut copy paste
-	    $('body').bind('cut copy paste', function (e) {
-		e.preventDefault();
-	    });
-	   
-	    //Disable mouse right click
-	    $("body").on("contextmenu",function(e){
-		return false;
-	    });
+				clearInterval(timer);
+				document.getElementById('daysRemaining').innerHTML = 'Over!';
+
+				return;
+			}
+			var days = Math.floor(distance / _day);
+			var hours = Math.floor((distance % _day) / _hour);
+			var minutes = Math.floor((distance % _hour) / _minute);
+			var seconds = Math.floor((distance % _minute) / _second);
+
+			document.getElementById('daysRemaining').innerHTML = days + ' ';
+		}
+		timer = setInterval(showRemaining, 1000);
+	</script>
+	
+	<script>
+	$(document).ready(function(){
+		$('[data-toggle="popover"]').popover({
+			container: 'body'
+		});   
 	});
-</script>
-</body>
+	</script>
 
+</body> 
 </html>
