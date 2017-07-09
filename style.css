@@ -4,7 +4,6 @@ body {
 	padding: 0;
 	overflow-x: hidden!important; /*Cut the overflow string*/
 	font-family: 'Audiowide', cursive;
-	background-color: yellow;
 }
 
 .preLoader {
