@@ -25,19 +25,15 @@
     background-image: url(images/bg3a.jpg);
 }
 #countdown{
-    background-image: url(images/dance.png), url(images/bg9.jpg);
-	background-repeat: no-repeat, no-repeat;
-	background-position: left top, right bottom;
+    background-image: url(images/bg9.jpg);
+	background-repeat: no-repeat;
+	background-position: right bottom;
 }
-#photos {
+#photos { 
     background-image: url(images/bg4.png), url(images/g10.jpg);
 	background-repeat: no-repeat, no-repeat;
-	background-position: left-bottom, right top;
-}
-#savethedate {
-	background: url(images/bg4.png) no-repeat bottom left;
-	z-index: -999;
-}
+	background-position: left bottom, right top;
+} 
 
 .and {
 	font-size: 40px;
@@ -51,12 +47,12 @@
 }
 
 #overlay {
-text-align: center;
-display: inline-block;
-border-radius: 25px;
-background-color: #fff;
-background-color: rgba(245,245,245,0.6);
-padding: 0px; 
+	text-align: center;
+	display: inline-block;
+	border-radius: 25px;
+	background-color: #fff;
+	background-color: rgba(245,245,245,0.6);
+	padding: 0px;
 }
 
 #timer {
@@ -290,6 +286,10 @@ background-size: 600px auto;
 		font-size: 1em;
 		margin-top: -2px;
 	}
+	
+	#timer {
+		font-size: 3em;
+	}
 
- }
+}
 
